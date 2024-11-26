@@ -14,6 +14,6 @@ There are a couple ways to submit your projects:
 
 1. Fork this repository, create a new branch in _your_ new 'Roadmap.sh-CodingBuddies' repository, and commit your projects to this new branch in _your_ remote repository. Then, create a pull request to the groups remote repository to have it submitted into your folder!
 
-2. Create a new branch in _this_ remote repository, commit your projects to this new branch in _this_ remote repostiory, and then submit a pull request to merge your branch into the main branch. 
+2. Create a new branch in _this_ remote repository, commit your projects to this new branch in _this_ remote repostiory, and then submit a pull request to merge your branch into the main branch.
 
 > **Note**: If you are unsure about how GitHub works and would like a tutorial, you can either complete [this Codecademy GitHub course](https://www.codecademy.com/enrolled/courses/learn-git) or you can schedule a meeting with me [here](https://calendly.com/danitellini/meetwithdani).
