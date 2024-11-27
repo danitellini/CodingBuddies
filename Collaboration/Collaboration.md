@@ -2,8 +2,6 @@
 
 This folder is dedicated to group projects and collaborative efforts within our study group. Whether you’re teaming up for a Codecademy project, a roadmap.sh task, or just brainstorming ideas, this is the space to make it happen.
 
----
-
 ## How to Use This Folder
 
 1. **Start a New Collaboration**:  
@@ -17,8 +15,6 @@ This folder is dedicated to group projects and collaborative efforts within our 
 3. **Track Progress**:  
    - Use a shared document or markdown file to track tasks, progress, and milestones.
    - Clearly define roles and responsibilities for team members.
-
----
 
 ## Guidelines
 
