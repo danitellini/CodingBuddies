@@ -5,6 +5,21 @@ html {
   font-size: 16px;
 }
 
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
@@ -26,6 +41,7 @@ html {
 
 .image-container img {
   display: block;
+  width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -41,6 +57,7 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  z-index: 1;
 }
 
 header .content {
@@ -149,6 +166,7 @@ header .mobile {
 
 #sign-up-cta h2 {
   font-size: 2.25rem;
+  margin-bottom: .75rem;
 }
 
 #sign-up-cta span strong {
@@ -220,21 +238,29 @@ header .mobile {
 #features-section {
   display: flex;
   justify-content: space-between;
-  padding: 4rem 5%;
+  gap: 2.375rem;
+  padding-top: 4rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2.875rem;
   background-color: #f3f3f3;
 }
 
 .feature {
   flex: 1;
   padding: 2rem;
-  margin: 0px 1.25rem;
   background-color: white;
+  height: 635px;
+  width: 635px;
 }
 
 .feature .image-container {
-  width: 90%;
   height: 65%;
-  margin: 0 auto;
+  width: 90%;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2.5rem;
+  margin-right: 2rem;
 }
 
 .feature h2 {
@@ -249,6 +275,7 @@ header .mobile {
   line-height: 1.2;
   font-weight: 300;
   color: #4a4a4a;
+  margin-bottom: 5.238rem;
 }
 
 @media only screen and (max-width: 890px) {
@@ -302,6 +329,10 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   max-width: 100%;
   padding: 0 1%;
 }
