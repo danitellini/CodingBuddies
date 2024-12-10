@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Test",
+        "ingredients": [
+            "Bat Wing",
+            "Witch Hair",
+            "Black Widow Silk"
+        ],
+        "effects": [
+            "Invisibility",
+            "Transformation",
+            "Trapping"
+        ],
+        "outcome": "Success",
+        "timestamp": "2024-10-28 17:29:33"
+    }
+]
