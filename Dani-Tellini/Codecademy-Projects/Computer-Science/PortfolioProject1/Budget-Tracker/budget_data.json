@@ -1,0 +1,10 @@
+{
+    "balance": 0,
+    "total_income": 0,
+    "total_expenses": 0,
+    "income_list": {},
+    "expense_list": {},
+    "bill_calendar": {},
+    "savings_accounts": {},
+    "last_startup": "2024-10-29 04:48:08"
+}
