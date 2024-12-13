@@ -36,7 +36,7 @@ Here, you’ll find a list of my active and finished projects. Each project is h
    - **Course**: [Build a Website with HTML, CSS, and GitHub Pages](https://www.codecademy.com/enrolled/paths/learn-how-to-build-websites)
    - **Description**: [Colmar Academy Project Page](https://www.codecademy.com/paths/learn-how-to-build-websites/tracks/learn-how-to-build-websites-capstone-project/modules/colmar-academy/projects/colmar-academy)
    - **Technologies**: HTML/CSS, GitHub, VSCode
-   - **Status**: Not Started
+   - **Status**: In Progress
 
 <!-- **[Project Name]**
    - **Course**:
