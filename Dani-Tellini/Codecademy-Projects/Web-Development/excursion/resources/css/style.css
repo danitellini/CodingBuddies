@@ -1,0 +1,101 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General page styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    margin-top: 35px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 35px;
+}
+
+header a {
+    color: aquamarine;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+/* Video container styles */
+.video-container {
+    margin: 20px 0;
+}
+
+.video-container video {
+    max-width: 400px;
+}
+
+/* Description section */
+.description {
+    color: gray;
+}
+
+.description h2 {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.description p {
+    font-size: 21px;
+    margin-bottom: -25px;
+}
+
+/* Landscape Image Container */
+.landscape-container {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.landscape-container img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Footer Styles */
+footer {
+    margin: 50px 0;
+}
+
+footer .icon {
+    margin-top: -30px;
+}
+
+footer .icon img {
+    width: 70px;
+}
+
+footer h2 {
+    font-size: 42px;
+    margin: 50px 0;
+}
+
+footer a {
+    color: aquamarine;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+footer p {
+    color: gray;
+    font-size: 24px;
+    text-align: right;
+    margin-right: 20px;
+}
