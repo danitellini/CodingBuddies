@@ -1,0 +1,119 @@
+/* ------------ OUTLINE ------------- */
+
+/* 1. RESET STYLES */
+/* 2. BASE STYLES */
+/* 3. HEADER SECTION */
+/* 4. BANNER SECTION */
+/* 5. INFORMATION SECTION */
+/* 6. COURSES SECTION */
+/* 7. THESIS SECTION */
+/* 8. FOOTER SECTION */
+/* 9. UTILITIES */
+/* 10. MEDIA QUERIES */
+
+/* ----------------------------------- */
+
+/* --------- 1. RESET STYLES --------- */
+
+html, body, h1, h2, h3, h4, h5, p, ul, li, img, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    list-style: none;
+    line-height: 1;
+    vertical-align: baseline;
+}
+
+/* ---------- 2. BASE STYLES --------- */
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    color: #686868;
+    background-color: white;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* -------- 3. HEADER SECTION -------- */
+
+header {
+    background-color: white;
+    height: 64px;
+    width: 100%;
+}
+
+header nav.desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    height: 64px;
+}
+
+header nav.desktop .logo-title {
+    display: flex;
+    align-items: center;
+}
+
+header nav.desktop .logo-title img {
+    height: 60px;
+}
+
+header nav.desktop .logo-title .title {
+    font-size: 32px;
+}
+
+header nav.desktop ul {
+    display: flex;
+    gap: 16px;
+}
+
+header nav.desktop a {
+    color: #686868;
+}
+
+header nav.mobile {
+    display: none;
+}
+
+/* -------- 4. BANNER SECTION -------- */
+
+/* ------ 5. INFORMATION SECTION ----- */
+
+/* -------- 6. COURSES SECTION ------- */
+
+/* -------- 7. THESIS SECTION -------- */
+
+/* -------- 8. FOOTER SECTION -------- */
+
+/* ---------- 9. UTILITIES ----------- */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* ------- 10. MEDIA QUERIES --------- */
+
+@media screen and (max-width: 480px) {
+    .desktop {
+        display: none;
+    }
+    header nav.mobile li {
+        display: flex;
+        justify-content: space-evenly;
+        height: 64px;
+    }
+}
