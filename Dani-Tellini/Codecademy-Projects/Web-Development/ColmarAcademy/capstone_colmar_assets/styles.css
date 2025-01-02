@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5 {
 }
 
 body {
-    color: #686868;
+    color: #383838;
     background-color: white;
     font-family: 'Hind Madurai', sans-serif;
 }
@@ -82,7 +82,7 @@ header nav.desktop ul {
 }
 
 header nav.desktop a {
-    color: #686868;
+    color: #383838;
 }
 
 header nav.mobile {
@@ -90,6 +90,50 @@ header nav.mobile {
 }
 
 /* -------- 4. BANNER SECTION -------- */
+
+.banner {
+    background-color: lightgrey;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-image img {
+    margin: 32px 24px;
+}
+
+.banner-text {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 24px;
+}
+
+h1 {
+    font-size: 56px;
+    font-style: bold;
+    line-height: 1.3;
+}
+
+.banner p {
+    font-size: 40px;
+    line-height: 1.3;
+}
+
+.banner button {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #383838;
+    color: white;
+    font-size: 24px;
+}
 
 /* ------ 5. INFORMATION SECTION ----- */
 
